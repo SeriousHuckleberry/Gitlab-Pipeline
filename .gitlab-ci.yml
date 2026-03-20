@@ -4,3 +4,4 @@ build:
     script:
         - echo "First Step"
         - echo "Second Step"
+        - echo "Third Step"
