@@ -3,6 +3,7 @@
 Bash_run:
   script:
     - mkdir myfolder
+    - cp basic.sh myfolder/
     - cd myfolder
     - sed -i 's/\r$//' basic.sh
     - bash basic.sh
