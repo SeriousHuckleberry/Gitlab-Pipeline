@@ -4,4 +4,4 @@ Bash_run:
   script:
     - echo "My name is $NAME"
     - echo "My password is $PASS"
-    - echo "Done in Github" 
+    - echo "Done in Github"
