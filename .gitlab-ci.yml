@@ -4,4 +4,4 @@ Bash_run:
   script:
     - echo "My name is $NAME"
     - echo "My password is $PASS"
-    - echo "DONE"
+    - echo "DONE" 
