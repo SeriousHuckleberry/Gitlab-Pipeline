@@ -1,5 +1,6 @@
 #To run bash script
 
 Bash_run:
-    script:
-        - bash basic.sh
+  script:
+    - sed -i 's/\r$//' basic.sh
+    - bash basic.sh
