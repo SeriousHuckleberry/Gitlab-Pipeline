@@ -2,4 +2,4 @@
 
 Bash_run:
     script:
-        - bash ./basic.sh
+        - bash basic.sh
