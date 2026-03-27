@@ -6,3 +6,5 @@ touch myfile.txt
 echo "Text to write" > myfile.txt
 
 echo "End of the Script..."
+
+echo "Adding new line"
