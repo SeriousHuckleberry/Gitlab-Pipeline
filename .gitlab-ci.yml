@@ -1,27 +1,5 @@
-stages:
-    - build
-    - test
-    - deploy
+#To run bash script
 
-before_script:
-    - echo "Before Script"
-
-after_script:
-    - echo "After Script"
-
-#build steps
-build:
-    stage: build
+Bash_run:
     script:
-        - echo "First Step"
-        - echo "Second Step"
-
-test-job:
-    stage: test
-    script:
-        - echo "Testing Step"
-
-deploy-job:
-    stage: deploy
-    script:
-        - echo "Deploy Step"
+        -bash ./basic.sh
