@@ -2,16 +2,5 @@
 
 Bash_run:
   script:
-    - mkdir myfolder
-    - cp basic.sh myfolder/
-    - cd myfolder
-    - sed -i 's/\r$//' basic.sh
-    - bash basic.sh
-    - touch newfile
-  
-  artifacts:
-    paths:
-        - "myfolder"
-    when: on_success
-    access: all
-    expire_in: 30 days
+    - echo "My name is $NAME"
+    - echo "My password is $PASS"
